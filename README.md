@@ -44,11 +44,8 @@ All components are **fully mobile responsive**, styled using Tailwind CSS utilit
    ```bash
    git clone https://github.com/your-username/cart-checkout-flow.git
    cd cart-checkout-flow
-   Install dependencies
+   npm install
    ```
 
 ---
 
-```bash
-npm install
-```
