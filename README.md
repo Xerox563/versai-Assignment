@@ -1,12 +1,54 @@
-# React + Vite
+# 🛒 Client Cart & Checkout Flow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional and responsive cart and checkout UI built using **React**, **Vite**, and **Tailwind CSS**. This project demonstrates modular frontend architecture with reusable components and supports core shopping cart functionalities like quantity updates, item removal, coupon validation, and order summary.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Features
 
-## Expanding the ESLint configuration
+- ✅ **Cart Page**:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  - Update item quantity
+  - Remove items from the cart
+
+- ✅ **Checkout Page**:
+
+  - Address input form
+  - Order summary section
+  - Coupon code input with frontend validation
+
+- ✅ **Reusable Components**:
+  - `CartItem` – handles individual cart item display and logic
+  - `CheckoutForm` – manages address inputs
+  - `SummaryCard` – displays order totals and applied discounts
+
+---
+
+## 🧰 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 📱 Responsiveness
+
+All components are **fully mobile responsive**, styled using Tailwind CSS utility classes.
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/cart-checkout-flow.git
+   cd cart-checkout-flow
+   Install dependencies
+   ```
+
+---
+
+```bash
+npm install
+```
